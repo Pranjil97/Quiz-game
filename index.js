@@ -11,8 +11,8 @@ let score=0;
 let index=0;
 
 function highscore(){
-  let a=document.getElementsByClassName("content")[0];
-  a.remove()
+  // let a=document.getElementsByClassName("content")[0];
+  // a.remove()
   content.remove()
   finaldiv.remove()
   const scorediv=document.createElement("div")
